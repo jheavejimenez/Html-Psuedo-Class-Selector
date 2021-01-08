@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Pseudo Class Selector</title>
+        <style>
+            .table-users {
+               width: 50%;
+               margin: auto;
+            }
+            #students {
+              font-family: Poppins, sans-serif;
+              border-collapse: collapse;
+              width: 100%;
+            }
+
+            #students td, #students th {
+              border: 1px solid #b5b2b2;
+              padding: 8px;
+            }
+            
+            #students tr:nth-child(even){background-color: #f2f2f2;}
+
+            #students tr:hover {background-color: #ddd;}
+
+            #students th {
+              padding-top: 12px;
+              padding-bottom: 12px;
+              text-align: left;
+              background-color: #004867;
+              color: white;
+            }
+            h1, h2, h6{
+               display: flex;
+               justify-content: center;
+            }
+         </style>
+    </head>
+    <body>
+        <div class="table-users">
+            <h1>WEB SYSTEMS AND TECHNOLOGIES</h1>
+            <h2>CEIT - 37 - 301P</h2>
+            <h6 stlye="font-weight:Bold">
+               06:00p - 07:30p MW 
+               07:30p - 09:00p MWS
+            </h6>
+        
+           <table id="students">
+              <tr>
+                 <th class="number-cell">No.</th>
+                 <th>Last Name</th>
+                 <th>First Name</th>
+              </tr>
+        
+              <tr>
+                 <td>1</td>
+                 <td>Alberto</td>
+                 <td>John Matthew</td>
+              </tr>
+        
+              <tr>
+                 <td>2</td>
+                 <td>Albia</td>
+                 <td>Rufa Rose</td>
+              </tr>
+        
+              <tr>
+                 <td>3</td>
+                 <td>Ambas</td>
+                 <td>Rey Zhandrex Joseph</td>
+              </tr>
+              
+              <tr>
+                 <td>4</td>
+                 <td>Ariola</td>
+                 <td>Rica</td>
+              </tr>
+
+              <tr>
+                 <td>5</td>
+                 <td>Azañes</td>
+                 <td>Julius Arvin</td>
+              </tr>
+
+              <tr>
+                 <td>6</td>
+                 <td>Balilo</td>
+                 <td>Jhaybee</td>
+              </tr>
+
+              <tr>
+                 <td>7</td>
+                 <td>Balingbing</td>
+                 <td>Carlo</td>
+              </tr>
+
+              <tr>
+                 <td>8</td>
+                 <td>Basco</td>
+                 <td>Sherwin Christan</td>
+              </tr>
+
+              <tr>
+                 <td>9</td>
+                 <td>Belleza</td>
+                 <td>Marcial Jr.</td>
+              </tr>
+
+              <tr>
+                 <td>10</td>
+                 <td>Beltran</td>
+                 <td>John Robert</td>
+              </tr>
+
+              <tr>
+                 <td>11</td>
+                 <td>Castañeda</td>
+                 <td>Ricky</td>
+              </tr>
+
+              <tr>
+                 <td>12</td>
+                 <td>Correra</td>
+                 <td>Marijo</td>
+              </tr>
+
+              <tr>
+                 <td>13</td>
+                 <td>Cribe</td>
+                 <td>Normarc</td>
+              </tr>
+
+              <tr>
+                 <td>14</td>
+                 <td>Cristobal</td>
+                 <td>Cathrin Denselle</td>
+              </tr>
+
+              <tr>
+                 <td>15</td>
+                 <td>Cruz</td>
+                 <td>Vinz Ashley</td>
+              </tr>
+
+              <tr>
+                 <td>16</td>
+                 <td>De Asis</td>
+                 <td>Andrie Johm Paul</td>
+              </tr>
+
+              <tr>
+                 <td>17</td>
+                 <td>Depaz</td>
+                 <td>Denver</td>
+              </tr>
+
+              <tr>
+                 <td>18</td>
+                 <td>Diaz</td>
+                 <td>Riane Rovic</td>
+              </tr>
+
+              <tr>
+                 <td>19</td>
+                 <td>Dimaano</td>
+                 <td>Jose Angelo Miguel</td>
+              </tr>
+
+              <tr>
+                 <td>20</td>
+                 <td>Dublois</td>
+                 <td>Rafael</td>
+              </tr>
+
+              <tr>
+                 <td>21</td>
+                 <td>Dumalay</td>
+                 <td>Darell Andre</td>
+              </tr>
+
+              <tr>
+                 <td>22</td>
+                 <td>Fabia</td>
+                 <td>Ma.Micaella</td>
+              </tr>
+
+              <tr>
+                 <td>23</td>
+                 <td>Ferrer</td>
+                 <td>Angeliza</td>
+              </tr>
+
+              <tr>
+                 <td>24</td>
+                 <td>Florendo</td>
+                 <td>Renzo</td>
+              </tr>
+
+              <tr>
+                 <td>25</td>
+                 <td>Gumboc</td>
+                 <td>Gumboc</td>
+              </tr>
+
+              <tr>
+                 <td>26</td>
+                 <td>Ishizawa</td>
+                 <td>Matt Florence</td>
+              </tr>
+
+              <tr style="cursor:pointer;"onclick="location.href='https://www.facebook.com/jheavejimenez'">
+                  <td>27</td>
+                  <td>Jimenez</td>
+                  <td>Jheave</td>
+              </tr>
+
+              <tr>
+                 <td>28</td>
+                 <td>Labro</td>
+                 <td>Paul Timothy</td>
+              </tr>
+
+              <tr>
+                 <td>29</td>
+                 <td>Lacdang</td>
+                 <td>Sean Nigell</td>
+              </tr>
+
+              <tr>
+                 <td>30</td>
+                 <td>Landicho</td>
+                 <td>Februari Viver</td>
+              </tr>
+
+              <tr>
+                 <td>31</td>
+                 <td>Magistrado</td>
+                 <td>Benzon</td>
+              </tr>
+
+              <tr>
+                 <td>32</td>
+                 <td>Malapitan</td>
+                 <td>Lance Farley</td>
+              </tr>
+
+              <tr>
+                 <td>33</td>
+                 <td>Maximo</td>
+                 <td>Alter</td>
+              </tr>
+
+              <tr>
+                 <td>34</td>
+                 <td>Orata</td>
+                 <td>Trixie</td>
+              </tr>
+
+              <tr>
+                 <td>35</td>
+                 <td>Perez</td>
+                 <td>Lawrence</td>
+              </tr>
+
+              <tr>
+                 <td>36</td>
+                 <td>Rivera</td>
+                 <td>Dean Ryan</td>
+              </tr>
+
+              <tr>
+                 <td>37</td>
+                 <td>Rivera</td>
+                 <td>Niel Patrick</td>
+              </tr>
+
+              <tr>
+                 <td>38</td>
+                 <td>Rivera</td>
+                 <td>Junel</td>
+              </tr>
+
+              <tr>
+                 <td>39</td>
+                 <td>San Agustin</td>
+                 <td>San Agustin</td>
+              </tr>
+
+              <tr>
+                 <td>40</td>
+                 <td>Sarmiento</td>
+                 <td>Jhon Edmar</td>
+              </tr>
+
+              <tr>
+                 <td>41</td>
+                 <td>Yulas</td>
+                 <td>Joel</td>
+              </tr>
+
+              <tr>
+                 <td>42</td>
+                 <td>Sadaya</td>
+                 <td>John</td>
+              </tr>
+
+              <tr>
+                 <td>43</td>
+                 <td>Macabugao</td>
+                 <td>Donna</td>
+              </tr>
+
+              <tr>
+                 <td>44</td>
+                 <td>Galanto</td>
+                 <td>Jerwin</td>
+              </tr>
+           </table>
+        </div>
+    </body>
+</html>
